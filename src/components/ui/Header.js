@@ -5,7 +5,7 @@ import useScrollTrigger from '@material-ui/core/useScrollTrigger';
 
 
 function ElevationScroll(props) {
-    const { children, window } = props;
+    const { children } = props;
     
     const trigger = useScrollTrigger({
       disableHysteresis: true,
